@@ -1,0 +1,17 @@
+<div class="container mt-3 py-2 bg-secondary bg-opacity-25">
+  <h2 style="color:blue">Login de usuario</h2>
+  <form method="post" id="login" action="/login">
+    <div class="mb-3">
+      <label for="emailLogin" class="form-label">Ingrese su email: </label>
+      <input type="email" class="form-control" id="emailLogin" name="email" aria-describedby="emailLogin" required>
+    </div>
+    <div class="mb-3">
+      <label for="passwordLogin" class="form-label">Ingrese su password: </label>
+      <input type="password" class="form-control" id="passwordLogin" name="password" aria-describedby="passwordLogin" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Logueate</button>
+  </form>
+
+  <a href="/signup" class="btn btn-success mt-3">Registrate</a>
+
+</div>

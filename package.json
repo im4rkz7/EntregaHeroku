@@ -1,0 +1,35 @@
+{
+  "name": "desafio-08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "startDb": "node ./config/connectToDb.js",
+    "start": "0x index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@faker-js/faker": "^7.6.0",
+    "artillery": "^2.0.0-30",
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "firebase-admin": "^11.5.0",
+    "g": "^2.0.1",
+    "minimist": "^1.2.8",
+    "mongoose": "^6.9.0",
+    "normalizr": "^3.6.2",
+    "socket.io": "^4.5.4",
+    "winston": "^3.8.2"
+  }
+}
